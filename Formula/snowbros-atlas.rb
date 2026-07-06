@@ -1,25 +1,25 @@
 class SnowbrosAtlas < Formula
   desc "Deterministic engineering intelligence for JavaScript/TypeScript codebases."
   homepage "https://github.com/snowbros-labs/atlas"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.0/snowbros-atlas-aarch64-apple-darwin.tar.gz"
-      sha256 "a230fee100db51dc71fb0a2622d29ab44fdb16984181426187bf254fb3d48061"
+      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.1/snowbros-atlas-aarch64-apple-darwin.tar.gz"
+      sha256 "3ab723d01e519752ca379a4c6dc11395d837fe52b9059a55a2abfa9e53db1d19"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.0/snowbros-atlas-x86_64-apple-darwin.tar.gz"
-      sha256 "87145411c266a37cb355aa2715c8dc35c48c60c2d5d5de0124ce80173129bab2"
+      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.1/snowbros-atlas-x86_64-apple-darwin.tar.gz"
+      sha256 "73d1a19f9121c71d0e86b49346bd20c7551c7d8aea67e7a99d2faf0226f7719c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.0/snowbros-atlas-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "afa60773aa6c5d661a8ef2cbc4800460e9b1c5863413e18af76e9f85bd46b51a"
+      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.1/snowbros-atlas-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1409c5c6c4a531bb4b477e65911adfcc556c245d6f488322ce175a2c6781c001"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.0/snowbros-atlas-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a97c90a74cb2a6bd4b8ee7ae79346ad80377732d47e73b8616fd92c92d26317a"
+      url "https://github.com/snowbros-labs/atlas/releases/download/v0.1.1/snowbros-atlas-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d6e126a8b38fe62499c9e639abc005aaa95ace9eed6ceb142362a62ba146a10e"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
